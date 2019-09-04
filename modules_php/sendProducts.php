@@ -10,12 +10,13 @@
 
     echo $gName;
     echo $gDatos;
+    echo $gEspec;
     echo $gPrecio;
     echo $gStock;
-
-    mysqli_query($cn,"insert into gProducts(gName, gData, gEspec, gImagen, gPrecio, gStock) values 
+/*
+    mysqli_query( openDoor(),"insert into gProducts(gName, gData, gEspec, gImagen, gPrecio, gStock) values 
                        ('$gName', 'hola soy paolo', 'paolo es un humano', '', '', '125', '123')")
-    or die("Problemas en el select".mysqli_error($cn));
+    or die("Problemas en el select".mysqli_error( openDoor()));
     header('location: error.php');
-    mysqli_close($cn);
+    mysqli_close(openDoor());*/
 ?>
