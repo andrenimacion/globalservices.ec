@@ -13,6 +13,8 @@
         <input type="text" name="gName" placeholder="Nombre..." style="padding: 10px;"><br>
         <label for="datos" style="padding: 10px;color: gray; font-size: 9pt;" >Ingresa la descripci&oacuten:</label>
         <textarea name="gDatos" style="padding: 10px;" rows="4" cols="61"></textarea><br>
+        <label for="datos" style="padding: 10px;color: gray; font-size: 9pt;" >Ingresa la descripci&oacuten T&eacutecnica:</label>
+        <textarea name="gEspec" style="padding: 10px;" rows="4" cols="61"></textarea><br>
          <input type="file" name="gImagen" >
         <label for="stock" style="padding: 10px;color: gray; font-size: 9pt;" >Ingresa Stock:</label>
         <input type="number" name="gStock">

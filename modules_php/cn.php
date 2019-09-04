@@ -16,6 +16,8 @@
 
     //connectFuncDb("localhost", "root", "", "gservices");
     //HOST GODADDY
+    function openDoor(){
     connectFuncDb("localhost", "aRiveraWebMaster", "Mormon1990", "gServices");
-
+    }
+    openDoor();
 ?>
