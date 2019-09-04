@@ -13,7 +13,9 @@
     echo $gPrecio;
     echo $gStock;
 
-    $queryInsert = "INSERT INTO gProducts($cn,'gName')VALUE('$gName')" or die("Problemas en el select".mysqli_error($cn));
-    //header('location: error.php');
+    mysqli_query($cn,"insert into gProducts(gName, gData, gEspec, gImagen, gPrecio, gStock) values 
+                       ('$gName', '$gData', '$Espec', '$gImagen', '$gPrecio', '$gPrecio', '$gStock')")
+    or die("Problemas en el select".mysqli_error($cn));
+    header('location: index.php');
     mysqli_close($cn);
 ?>

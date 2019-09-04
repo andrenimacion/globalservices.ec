@@ -1,6 +1,7 @@
 <?php
-    function connectFuncDb($a,$b,$c,$d){
-    $cn=mysqli_connect($a, $b, $c, $d);
+ $cn=mysqli_connect("localhost", "aRiveraWebMaster", "Mormon1990", "gServices");
+    /*function connectFuncDb($a,$b,$c,$d){
+    $cn=mysqli_connect("localhost", "aRiveraWebMaster", "Mormon1990", "gServices");
     if(!$cn){
         echo "<script>";
         echo "alert('algo esta pasando no nos pudimos conectar revise el código')";
@@ -19,5 +20,5 @@
     function openDoor(){
     connectFuncDb("localhost", "aRiveraWebMaster", "Mormon1990", "gServices");
     }
-    openDoor();
+    openDoor();*/
 ?>
