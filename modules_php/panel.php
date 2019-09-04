@@ -16,6 +16,8 @@
         <label for="datos" style="padding: 10px;color: gray; font-size: 9pt;" >Ingresa la descripci&oacuten T&eacutecnica:</label>
         <textarea name="gEspec" style="padding: 10px;" rows="4" cols="61"></textarea><br>
          <input type="file" name="gImagen" >
+        <label for="stock" style="padding: 10px;color: gray; font-size: 9pt;" >Ingresa Precio:</label>
+        <input type="number" name="gPrecio">
         <label for="stock" style="padding: 10px;color: gray; font-size: 9pt;" >Ingresa Stock:</label>
         <input type="number" name="gStock">
         <input type="submit" value="Crear Producto" class="btn btn-primary mt-3">
