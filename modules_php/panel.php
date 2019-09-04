@@ -8,7 +8,7 @@
 </head>
 <body>
 <div>
-<form method="POST" enctype="multipart/form-data" action="send.php">
+<form method="POST" enctype="multipart/form-data" action="sendProducts.php">
         <label for="nombre" style="color: gray; padding: 10px; font-size: 9pt;">Ingresa un Nombre para el producto:</label>
         <input type="text" name="gName" placeholder="Nombre..." style="padding: 10px;"><br>
         <label for="datos" style="padding: 10px;color: gray; font-size: 9pt;" >Ingresa la descripci&oacuten:</label>
