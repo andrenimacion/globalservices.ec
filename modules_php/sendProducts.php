@@ -13,7 +13,7 @@
     echo $gPrecio;
     echo $gStock;
 */
-    $queryInsert = "INSERT INTO gProducts('gName', 'gData', 'gEspec', 'gImagen', 'gPrecio', 'gStock')VALUE('$gName','','','','','')" or die("Problemas en el select".mysqli_error(openDoor()));
+    $queryInsert = "INSERT INTO gProducts(openDoor(),'gName')VALUE('$gName')" or die("Problemas en el select".mysqli_error(openDoor()));
     header('location: error.php');
     mysqli_close(openDoor());
 ?>
