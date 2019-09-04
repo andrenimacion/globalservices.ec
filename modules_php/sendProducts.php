@@ -15,6 +15,6 @@
 */
     $queryInsert = "INSERT INTO gProducts('gName', 'gData', 'gEspec', 'gImagen', 'gPrecio', 'gStock')
     VALUE('$gName','$gDatos','$gEspec','$gImagen','$gPrecio','$gStock')" or die("Problemas en el select".mysqli_error(openDoor()));
-    header('location: ./index.php');
+    header('location: error.php');
     mysqli_close(openDoor());
 ?>
