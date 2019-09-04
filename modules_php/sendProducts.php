@@ -3,13 +3,15 @@
 
     $gName = $_REQUEST['gName'];
     $gDatos = $_REQUEST['gDatos'];
-    $gImagen = $_REQUEST[''];
+    $gImagen = addslashes(file_get_contents($_FILES['gImagen']['tmp_name']));
     $gPrecio = $_REQUEST['gPrecio'];
     $gStock = $_REQUEST['gStock'];
-
+/*
     echo $gName;
     echo $gDatos;
     echo $gPrecio;
     echo $gStock;
+*/
 
+echo $gImagen;
 ?>
