@@ -4,7 +4,6 @@
     $gName = $_REQUEST['gName'];
     $gDatos = $_REQUEST['gDatos'];
     $gImagen = addslashes(file_get_contents($_FILES['gImagen']['tmp_name']));
-    $gPrecio = $_REQUEST['gPrecio'];
     $gStock = $_REQUEST['gStock'];
 /*
     echo $gName;
@@ -13,5 +12,6 @@
     echo $gStock;
 */
 
-echo $gImagen;
+    $queryInsert = "INSERT INTO "
+
 ?>
