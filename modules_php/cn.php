@@ -14,6 +14,8 @@
     }
     }
 
-    connectFuncDb("localhost", "root", "", "gservices");
+    //connectFuncDb("localhost", "root", "", "gservices");
+    //HOST GODADDY
+    connectFuncDb("localhost", "aRiveraWebMaster", "Mormon1990", "gServices");
 
 ?>
