@@ -8,15 +8,9 @@
     $gPrecio = $_REQUEST['gPrecio'];
     $gStock = $_REQUEST['gStock'];
 
-    echo $gName;
-    echo $gDatos;
-    echo $gEspec;
-    echo $gPrecio;
-    echo $gStock;
-/*
-    mysqli_query( openDoor(),"insert into gProducts(gName, gData, gEspec, gImagen, gPrecio, gStock) values 
-                       ('$gName', 'hola soy paolo', 'paolo es un humano', '', '', '125', '123')")
+
+    mysqli_query( openDoor(),"insert into gProducts(gName) values ('$gName')")
     or die("Problemas en el select".mysqli_error( openDoor()));
     header('location: error.php');
-    mysqli_close(openDoor());*/
+    mysqli_close(openDoor());
 ?>
