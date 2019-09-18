@@ -81,7 +81,7 @@
         </div>
         <script src="js/logo_anim.js"></script>
        <?php
-            require_once "modules_php/products.php";
+            require_once "./modules_php/products.php";
        ?>
 </body>
 
