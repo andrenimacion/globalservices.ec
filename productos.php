@@ -80,57 +80,9 @@
             </figure>
         </div>
         <script src="js/logo_anim.js"></script>
-       
-    <div class="container" id="productos">
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/1186.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Contactos</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/1186.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Contactos</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/1186.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Contactos</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/1186.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Contactos</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/1186.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Contactos</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/1186.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Contactos</a>
-            </div>
-        </div>
-    </div>
+       <?php
+            require_once "modules_php/products.php";
+       ?>
 </body>
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
