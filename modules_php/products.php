@@ -1,8 +1,10 @@
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+<figure style="padding: 10px;">
+  <img src="./assets/img/productos/Accesorios2.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Accesorios</h5>
+    <p class="card-text">Accesorios para refrigeración.</p>
+    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>

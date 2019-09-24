@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+    li {
+        display: none;
+    }
+    #responsive-menu {
+        display: inherit;
+        cursor: pointer;
+    }
+    #menu-modal {
+        display: inherit;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    #responsive-menu {
+        display: none;
+    }
+    #menu-modal {
+        display: none;
+    }
+}

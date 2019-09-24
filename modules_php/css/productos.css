@@ -1,0 +1,54 @@
+#productos {
+    margin-top: 150px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+}
+
+#header {
+    background-image: url('assets/img/1186.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+    transition: ease all 3s;
+}
+
+@media(max-width: 800px) {
+    #header {
+        background-position: 0px 0px;
+    }
+    #header:hover {
+        transition: ease all 1s;
+        background-position: 0px 0px;
+    }
+    #logo {
+        width: 125px;
+        height: 125px;
+        left: 100%;
+        margin-top: 100px;
+    }
+    #logoid {
+        width: 125px;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+#header:hover {
+    transition: ease all 1s;
+    background-position: 0px -450px;
+}
+
+#image2 {
+    background-image: url('assets/img/1190.jpg');
+    height: 200px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}

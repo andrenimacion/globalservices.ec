@@ -10,62 +10,10 @@
     <link rel="stylesheet" href="./modules_php/css/head.css">
     <link rel="stylesheet" href="./modules_php/css/body.css">
     <link rel="stylesheet" href="./modules_php/css/footer.css">
+    <link rel="stylesheet" href="./modules_php/css/productos.css">
+    <link rel="stylesheet" href="./modules_php/css/nav.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <style>
-        #productos {
-            margin-top: 150px;
-            padding: 15px;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        
-        .card {
-            margin: 10px;
-        }
-        #header{
-            background-image: url('assets/img/1186.jpg');
-            background-size: 100% auto;
-            background-repeat: no-repeat;
-            background-position: 0px -200px;
-            transition:ease all 3s;
-        }
-        
-@media(max-width: 800px) {
-    #header {
-        background-position: 0px 0px;
-    }
-    #header:hover{
-            transition:ease all 1s;
-            background-position: 0px 0px;
-        }
-    
-        #logo{
-            width: 125px;
-            height: 125px;
-            left: 100%;
-            margin-top: 100px;
-        }
-        #logoid{
-            width: 125px;
-            height: auto;
-            margin-top: 20px;
-        }
-        }
-        #header:hover{
-            transition:ease all 1s;
-            background-position: 0px -450px;
-        }
-        #image2{
-            background-image: url('assets/img/1190.jpg');
-            height: 200px;
-            background-size: 100% auto;
-            background-repeat: no-repeat;
-            background-position: 0px -200px;
-        }
-    </style>
 </head>
 
 <body>
@@ -76,13 +24,17 @@
         <!--nav bar fin-->
         <div id="logo">
             <figure>
-                <img src="assets/img/GLOBAL-SERVICES-LOGO-W.png" width="300px" height="auto" alt="logotipo" id="logoid">
+                <img src="assets/img/GLOBAL-SERVICES-LOGO-W.png" width="200px" height="auto" alt="logotipo" id="logoid">
             </figure>
         </div>
         <script src="js/logo_anim.js"></script>
-       <?php
-            require_once "modules_php/products.php";
-       ?>
+        <div class="container mt-4">
+        <div class="container mt-4">
+            <?php
+                require_once "modules_php/products.php";
+            ?>
+            </div>
+        </div>
 </body>
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
