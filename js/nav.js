@@ -1,55 +1,102 @@
+//<=====================================================>//
+
+//<img src="./ul/menu-ico.png" alt="menu icono">
+
+//creacion del icono
+const figureA = document.getElementById('figure-activeA');
+const figureB = document.getElementById('figure-activeB');
+//cambio de Icono
+
+//<=====================================================>//
+//cambio de icono y reconocimiento del mismo INICIO
+
+//cambio de icono y reconocimiento del mismo FIN
+
 //media query 800px screen
 
-//animacion del menu-resp INICIO
+//toma de datos para la animacion del menu-resp INICIO
 const responsive_menu = document.getElementById('responsive-menu');
 const menu_modal = document.getElementById('menu-modal');
 menu_modal.style.backgroundColor = "#363636";
 
-responsive_menu.addEventListener('click', showMenuResponsive);
-responsive_menu.addEventListener('mouseover', showCursor);
+//toma de datos para la animacion del menu-resp FIN
 
+//================================================//
 
-function showCursor() {
-    responsive_menu.style.cursor = "pointer";
+//animacion del menu-resp INICIO
+
+function visualElement(element, option, optionAnime, op1, op2, sc1, sc2) {
+    anime({
+        targets: optionAnime,
+        keyframes: [{
+                opacity: op1,
+                scale: sc1
+            },
+            {
+                opacity: op2,
+                scale: sc2
+            }
+        ],
+        easing: 'easeOutElastic(1,.8)',
+        duration: 1200
+    });
+    setTimeout(() => {
+        element.style.display = option;
+    }, 1200);
 }
 
+figureA.addEventListener('click', iconActiveA);
 
-function showMenuResponsive() {
+function iconActiveA() {
+    console.log('evento activad A');
+    visualElement(figureA, "none", '#figure-activeA', 1, 0, 1, 0);
+    visualElement(figureB, "flex", '#figure-activeB', 0, 1, 0, 1);
+    animacionEntradaDiv(-100, 0, 0, 1);
+    animacionEntradaLi(-100, 100, 0);
+}
 
+figureB.addEventListener('click', iconActiveB);
+
+function iconActiveB() {
+    console.log('evento activad B');
+    visualElement(figureB, "none", '#figure-activeB', 1, 0, 1, 0);
+    visualElement(figureA, "flex", '#figure-activeA', 0, 1, 0, 1);
+    animacionEntradaDiv(0, 1, -100, 0);
+    animacionEntradaLi(0, -100, -100);
+}
+
+function animacionEntradaLi(a, b, c) {
+    setTimeout(() => {
+            anime({
+                targets: '.menu-resp',
+                keyframes: [
+                    { translateX: a },
+                    { translateX: b },
+                    { translateX: c }
+                ],
+                loop: false,
+                delay: function(el, i, l) {
+                    return i * 100;
+                },
+                endDelay: function(el, i, l) {
+                    return (l - i) * 100;
+                }
+            });
+        },
+        1000);
+}
+
+function animacionEntradaDiv(a, b, c, d) {
     anime({
         targets: '#menu-modal',
         keyframes: [
-            { translateY: -100, opacity: 0 },
-            { translateY: 0, opacity: 1 }
+            { translateY: a, opacity: b },
+            { translateY: c, opacity: d }
         ],
         easing: 'easeOutElastic(1,.8)',
         duration: 2000
     });
-    setTimeout(() => {
-        anime({
-            targets: '.menu-resp',
-            keyframes: [
-                { translateX: 0 },
-                { translateX: 100 },
-                { translateX: 0 }
-            ],
-            loop: false,
-            delay: function(el, i, l) {
-                return i * 100;
-            },
-            endDelay: function(el, i, l) {
-                return (l - i) * 100;
-            }
-        });
-    }, 1000);
+
 }
-
-//animacion del menu-resp FIN
-
-//==========================//
-
-//animacion del menu-resp INICIO
-
-
 
 //animacion del menu-resp FIN

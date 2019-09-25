@@ -41,6 +41,7 @@
             require_once('modules_php/nav.php')
         ?>
         <script src="js/nav.js"></script>
+        </script>
         <!--nav bar fin-->
         <div id="logo">
             <figure>
