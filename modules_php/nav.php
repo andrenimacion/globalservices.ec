@@ -26,7 +26,7 @@
     <a href="index.php" style="color: white;"> Inicio </a>
   </div>
   <div class="menu-resp m-2 p-1">
-    <a href="inicio.php" style="color: white;"> Productos </a>
+    <a href="productos.php" style="color: white;"> Productos </a>
   </div>
   <div class="menu-resp m-2 p-1 ">
     <a href="inicio.php" style="color: white;"> Contactos </a>

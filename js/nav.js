@@ -48,7 +48,6 @@ function visualElement(element, option, optionAnime, op1, op2, sc1, sc2) {
 figureA.addEventListener('click', iconActiveA);
 
 function iconActiveA() {
-    console.log('evento activad A');
     visualElement(figureA, "none", '#figure-activeA', 1, 0, 1, 0);
     visualElement(figureB, "flex", '#figure-activeB', 0, 1, 0, 1);
     animacionEntradaDiv(-100, 0, 0, 1);
@@ -58,7 +57,6 @@ function iconActiveA() {
 figureB.addEventListener('click', iconActiveB);
 
 function iconActiveB() {
-    console.log('evento activad B');
     visualElement(figureB, "none", '#figure-activeB', 1, 0, 1, 0);
     visualElement(figureA, "flex", '#figure-activeA', 0, 1, 0, 1);
     animacionEntradaDiv(0, 1, -100, 0);
@@ -100,3 +98,12 @@ function animacionEntradaDiv(a, b, c, d) {
 }
 
 //animacion del menu-resp FIN
+
+
+//detecto el tamaño de pantalla INICIO
+
+if (screen.width > 801) {
+    figureA.style.display = "none";
+}
+
+//detecto el tamaño de pantalla FIN
