@@ -10,13 +10,13 @@
 
 <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active " href="#" style="color: white;">Inicio</a>
+    <a class="nav-link active " href="index.php" style="color: white;">Inicio</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" style="color: white;">Productos</a>
+    <a class="nav-link" href="productos.php" style="color: white;">Productos</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" style="color: white;">Contactos</a>
+    <a class="nav-link" href="index.php" style="color: white;">Contactos</a>
   </li>
 </ul>
 </nav>

@@ -17,24 +17,19 @@
 </head>
 
 <body>
-     <!--nav bar inicio-->
-     <?php
+        <!--nav bar inicio-->
+        <?php
             require_once('modules_php/nav.php');
         ?>
         <!--nav bar fin-->
-        <div id="logo">
-            <figure>
-                <img src="assets/img/GLOBAL-SERVICES-LOGO-W.png" width="200px" height="auto" alt="logotipo" id="logoid">
-            </figure>
-        </div>
-        <script src="js/logo_anim.js"></script>
-        <div class="container mt-4">
+        <script src="js/nav.js"></script>
+        
         <div class="container mt-4">
             <?php
                 require_once "modules_php/products.php";
             ?>
             </div>
-        </div>
+
 </body>
 
 <script src="node_modules/jquery/dist/jquery.js"></script>

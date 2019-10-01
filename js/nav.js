@@ -50,7 +50,7 @@ figureA.addEventListener('click', iconActiveA);
 function iconActiveA() {
     visualElement(figureA, "none", '#figure-activeA', 1, 0, 1, 0);
     visualElement(figureB, "flex", '#figure-activeB', 0, 1, 0, 1);
-    animacionEntradaDiv(-100, 0, 0, 1);
+    animacionEntradaDiv(-100, 0, 0, 1, "inherit");
     animacionEntradaLi(-100, 100, 0);
 }
 
@@ -59,7 +59,7 @@ figureB.addEventListener('click', iconActiveB);
 function iconActiveB() {
     visualElement(figureB, "none", '#figure-activeB', 1, 0, 1, 0);
     visualElement(figureA, "flex", '#figure-activeA', 0, 1, 0, 1);
-    animacionEntradaDiv(0, 1, -100, 0);
+    animacionEntradaDiv(0, 1, -100, 0, "none");
     animacionEntradaLi(0, -100, -100);
 }
 
@@ -84,7 +84,7 @@ function animacionEntradaLi(a, b, c) {
         1000);
 }
 
-function animacionEntradaDiv(a, b, c, d) {
+function animacionEntradaDiv(a, b, c, d, property) {
     anime({
         targets: '#menu-modal',
         keyframes: [
@@ -94,6 +94,9 @@ function animacionEntradaDiv(a, b, c, d) {
         easing: 'easeOutElastic(1,.8)',
         duration: 2000
     });
+    setTimeout(() => {
+        menu_modal.style.display = property;
+    }, 1000);
 
 }
 

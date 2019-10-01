@@ -1,7 +1,12 @@
 <div class="container-fluid" id="footer">
-    <div id="f1">
-        <figure>
-            <img src="./assets/img/GLOBAL-SERVICES-LOGO-W.png" width="200px" height="auto">
-        </figure>
+    <div class="box-f-1">
+        <img src="">
+        <p>
+        <h4>Teléfonos:</h4>
+        <h5>242424242 - 0999599959</h5>
+        </p>
+    </div>
+
+    <div class="box-f-1">
     </div>
 </div>
