@@ -1,24 +1,30 @@
-<div class="container mt-4 mb-4 p-4">
-<div class="title p-3 mb-2 bg-primary text-white">
-    <p class="h3"><strong>Nuestra Empresa:</strong></p>
-</div>
-<div class="container mt-3 mb-3">
 
+<!--
+<div class="container p-4 mb-3" id="image2">
+</div>
+-->
+<div class="container mt-3 mb-3" id="paragraph" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+
+<div class="title p-3 mb-2 bg-primary text-white" id="p2" style="width: 38%;">
+    <p class="h3"><strong>Nuestra Empresa:</strong></p><br>
+    <p style="text-align: justify;">
+        Global Services está presente en el mercado Ecuatoriano por más de 20 años, 
+        siendo pioneros en comercializar productos especializados para contendores refrigrados,
+        secos, chasis, y equipos.
+    </p>
+</div>
+
+<div id="p1" style="width: 50%;">
    <p style="color: black;">
    <h2 style="color: steelblue"><strong> Global Services </strong></h2>
-   Estamos orientados a brindar un servicio de excelencia y calidad en la provisión 
-   de un servicio diferenciado de…………., con el mejor capital humano disponible en el
-    mercado laboral, ofreciéndoles a éstos la ventaja diferencial de un trabajo, 
-    involucra practica y capacitación constante, logrando así un profesional más 
-    identificado con nuestra empresa, nuestros clientes y en permanente desarrollo 
-    individual o personal.
-   </p> 
-   
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-   Earum, minima. Atque deleniti officiis unde, cupiditate voluptate voluptates rerum! 
-   Ipsum, nisi. Excepturi illum autem doloribus dolores sapiente velit, rerum deserunt repudiandae.</p>
+    <strong> Misión: </strong><br>
+    Somos una empresa Ecuatoriana dedicada a la comercialización de productos y servicios,
+    orientados a suplir al mercado multimodal en el Ecuador, cunpliendo normas de calidad.<br>
+    Cuenta con el abal de fabricantes a  nivel mundial con respaldo <strong> ISO-IICL </strong><br>
+    <strong> Visión: </strong><br>
+    Globalservices está enfocada en el crecimiento y el desarrollo a largo plazo en conjunto con sus clientes como socios
+    estratégicos.
+   </p>
    </div>
-</div>
-<div class="container p-4 mb-3" id="image2">
 </div>
 
