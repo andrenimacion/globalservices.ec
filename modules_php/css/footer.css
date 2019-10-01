@@ -8,7 +8,6 @@
 #box-f-1 {
     width: 50%;
     height: auto;
-    height: 300px;
     padding: 30px;
     background-size: 100% 100%;
     display: flex;
@@ -28,7 +27,7 @@
 
 #f1 {
     width: 50%;
-    height: 300px;
+    height: auto;
     padding: 15px;
     background-color: rgb(2, 60, 131);
     margin-left: -15px;
@@ -71,5 +70,11 @@
     }
     #p2 {
         width: 100%;
+    }
+    #footer {
+        height: auto;
+    }
+    #box-f-1 {
+        background-image: none;
     }
 }

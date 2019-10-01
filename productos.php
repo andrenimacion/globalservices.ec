@@ -21,6 +21,9 @@
         <?php
             require_once('modules_php/nav.php');
         ?>
+        <?php
+            require_once('modules_php/nav-products.php');
+        ?>
         <!--nav bar fin-->
         <script src="js/nav.js"></script>
         
@@ -29,6 +32,9 @@
                 require_once "modules_php/products.php";
             ?>
             </div>
+
+        <script src="js/filtro.js">
+        </script>
 
 </body>
 
