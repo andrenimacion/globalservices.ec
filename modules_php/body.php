@@ -3,9 +3,9 @@
 <div class="container p-4 mb-3" id="image2">
 </div>
 -->
-<div class="container mt-3 mb-3" id="paragraph" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+<div class="container mt-3 mb-3" id="paragraph">
 
-<div class="title p-3 mb-2 bg-primary text-white" id="p2" style="width: 38%;">
+<div class="title p-3 mb-2 bg-primary text-white" id="p2">
     <p class="h3"><strong>Nuestra Empresa:</strong></p><br>
     <p style="text-align: justify;">
         Global Services está presente en el mercado Ecuatoriano por más de 20 años, 
@@ -14,7 +14,7 @@
     </p>
 </div>
 
-<div id="p1" style="width: 50%;">
+<div id="p1" style=" text-align: justify;">
    <p style="color: black;">
    <h2 style="color: steelblue"><strong> Global Services </strong></h2>
     <strong> Misión: </strong><br>

@@ -42,3 +42,34 @@
         width: 100%;
     }
 }
+
+#paragraph {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#p1 {
+    width: 40%;
+}
+
+#p2 {
+    width: 50%;
+}
+
+@media(max-width: 800px) {
+    #paragraph {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #p1 {
+        width: 100%;
+    }
+    #p2 {
+        width: 100%;
+    }
+}
