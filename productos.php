@@ -24,7 +24,7 @@
         <!--nav bar fin-->
         <script src="js/nav.js"></script>
         
-        <div class="container mt-4" style="display: flex; justify-content: space-around; align-items: center;">
+        <div class="container mt-4" id="contProd" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;" >
             <?php
                 require_once "modules_php/products.php";
             ?>

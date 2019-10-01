@@ -21,6 +21,7 @@
     Somos una empresa Ecuatoriana dedicada a la comercialización de productos y servicios,
     orientados a suplir al mercado multimodal en el Ecuador, cunpliendo normas de calidad.<br>
     Cuenta con el abal de fabricantes a  nivel mundial con respaldo <strong> ISO-IICL </strong><br>
+    <hr>
     <strong> Visión: </strong><br>
     Globalservices está enfocada en el crecimiento y el desarrollo a largo plazo en conjunto con sus clientes como socios
     estratégicos.

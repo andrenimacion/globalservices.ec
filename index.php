@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./modules_php/css/nav.css">
     <link rel="stylesheet" href="./modules_php/css/body.css">
     <link rel="stylesheet" href="./modules_php/css/footer.css">
+    <link rel="stylesheet" href="./modules_php/css/productos.css">
     <link rel="stylesheet" href="./modules_php/css/index.css"><!--
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
