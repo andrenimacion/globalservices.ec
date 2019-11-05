@@ -11,22 +11,23 @@
       </div>
       <div class="modal-body">
         <div id="picture">
-            
+            <img src="" id="imagenModalViewer">
         </div>
         <div id="bodyModal">
 
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         <button type="button" class="btn btn-primary">¡Contactarse!</button>
       </div>
     </div>
   </div>
 </div>
+<!--MODAL PRODUCTOS HIDE FIRST VIEW [FIN]-->
 
+<!--p1 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px;" id="1">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"  id="selladoPegado">
   <img src="./assets/img/productos/Accesorios2.jpg" id="img1" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
@@ -37,10 +38,12 @@
         <li class="li">Sikaflex 221</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" id="selladoPegado">Ver más</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
+<!--p1 [FIN]-->
 
+<!--p2 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px; "id="2">
 <figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"  id="accesoriosPuertas">
   <img src="./assets/img/productos/accesoriosPuerta.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
@@ -68,8 +71,9 @@
     <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
+<!--p2 [FIN]-->
 
-
+<!--p3 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px;" id="3">
 <figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" id="planchasAceroInoxidable">
   <img src="./assets/img/productos/planAcero.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
@@ -90,7 +94,9 @@
     <a href="#" class="btn btn-primary" >Ver más</a>
   </div>
 </div>
+<!--p3 [FIN]-->
 
+<!--p4 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px;" id="4">
 <figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje" style="cursor: pointer;">
   <img src="./assets/img/productos/acc.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
@@ -111,9 +117,11 @@
     <a href="#" class="btn btn-primary" >Ver más</a>
   </div>
 </div>
+<!--p4 [FIN]-->
 
+<!--p5 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px;" id="5">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;"  data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje" style="cursor: pointer;">
   <img src="./assets/img/productos/bisGalv.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
@@ -127,6 +135,7 @@
     <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
+<!--p5 [FIN]-->
 
 <div class="card" style="width: 18rem; padding: 12px;" id="6">
 <figure style="padding: 10px;">
