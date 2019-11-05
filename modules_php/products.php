@@ -26,7 +26,7 @@
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="1">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;">
   <img src="./assets/img/productos/Accesorios2.jpg" id="img1" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
@@ -37,12 +37,12 @@
         <li class="li">Sikaflex 221</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="selladoPegado">Ver más</a>
+    <a href="#" class="btn btn-primary" id="selladoPegado">Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px; "id="2">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"  id="accesoriosPuertas">
   <img src="./assets/img/productos/accesoriosPuerta.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
@@ -65,13 +65,13 @@
         <li class="li">Handle</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="accesoriosPuertas">Ver más</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
 
 
 <div class="card" style="width: 18rem; padding: 12px;" id="3">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" id="planchasAceroInoxidable">
   <img src="./assets/img/productos/planAcero.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
@@ -87,12 +87,12 @@
         <li class="li">4' x 8.5' x 1.2mm<small>HICU</small></li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="planchasAceroInoxidable">Ver más</a>
+    <a href="#" class="btn btn-primary" >Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="4">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje" style="cursor: pointer;">
   <img src="./assets/img/productos/acc.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
@@ -108,7 +108,7 @@
         <li class="li">Tapones</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje">Ver más</a>
+    <a href="#" class="btn btn-primary" >Ver más</a>
   </div>
 </div>
 
