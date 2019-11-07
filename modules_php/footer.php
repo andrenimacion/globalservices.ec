@@ -1,4 +1,4 @@
-<div class="container-fluid" id="footer">
+<div class="container-fluid mt-4" id="footer">
     <div class="box-f-1" id="box-f-1" style="background-image: url('ul/footer.png');">
         <p>
            <div class="icos" id="icos-1">

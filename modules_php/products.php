@@ -1,3 +1,4 @@
+
 <!--MODAL PRODUCTOS HIDE FIRST VIEW [INICIO]-->
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -11,45 +12,58 @@
       </div>
       <div class="modal-body">
         <div id="picture">
-            <img src="" id="imagenModalViewer">
+            <img src="" id="imagenModal" width="100%" height="auto">
         </div>
         <div id="bodyModal">
 
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">¡Contactarse!</button>
+      <div class="modal-footer" >
+        <p class="text mt-4 mb-4" id="modalFooter"></p>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal"  id="contacto">¡Contactarse!</button>
       </div>
     </div>
   </div>
 </div>
-<!--MODAL PRODUCTOS HIDE FIRST VIEW [FIN]-->
+<script>
+  let contactoEvent = document.getElementById('contacto');
+  let contacto = "2472089 - 2753106 - 0987210849";
+  let modalFooter = document.getElementById('modalFooter');
+  function hide(display){
+    modalFooter.innerHTML= display;
+    modalFooter.style.fontFamily= "arial";
+  }
+  hide("");
 
-<!--p1 [INICIO]-->
+  contactoEvent.addEventListener('click', contactoShow)
+  function contactoShow(){
+    hide(`<strong>Contactos:</strong><br> ${contacto}`);
+  }
+</script>
+
+
 <div class="card" style="width: 18rem; padding: 12px;" id="1">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"  id="selladoPegado">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="selladoPegado">
   <img src="./assets/img/productos/Accesorios2.jpg" id="img1" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Productos para sellado y pegado</h4>
+    <h4 class="card-title" id="t1">Productos para sellado y pegado</h4>
     <small style="font-size: 8pt; color: gray;">Productos para contenedores refirgerados</small>
     <ul id="ul1">
         <li class="li">Pistola aplicadora de Sikaflex</li>
         <li class="li">Sikaflex 221</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
-<!--p1 [FIN]-->
 
-<!--p2 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px; "id="2">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"  id="accesoriosPuertas">
+<figure style="padding: 10px;" class="f"  data-toggle="modal" data-target="#exampleModal" id="accesoriosPuertas">
   <img src="./assets/img/productos/accesoriosPuerta.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Accesorios para puerta de contenedor</h4>
+    <h4 class="card-title" id="t2">Accesorios para puerta de contenedor</h4>
     <small style="font-size: 8pt; color: gray;">Productos para puertas</small>
     <ul id="ul2">
         <li class="li">Tie back</li>
@@ -68,18 +82,16 @@
         <li class="li">Handle</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
-<!--p2 [FIN]-->
 
-<!--p3 [INICIO]-->
+
 <div class="card" style="width: 18rem; padding: 12px;" id="3">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" id="planchasAceroInoxidable">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="planchasAceroInoxidable">
   <img src="./assets/img/productos/planAcero.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Planchas de acero inoxidable</h4>
+    <h4 class="card-title" id="t3">Planchas de acero inoxidable</h4>
     <small>Productos para contenedores</small>
       <ul id="ul3">
         <li class="li"><strong>Medidas:</strong> </li>
@@ -91,18 +103,15 @@
         <li class="li">4' x 8.5' x 1.2mm<small>HICU</small></li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" >Ver más</a>
   </div>
 </div>
-<!--p3 [FIN]-->
 
-<!--p4 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px;" id="4">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje" style="cursor: pointer;">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje">
   <img src="./assets/img/productos/acc.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Accesorios de Drenaje</h4>
+    <h4 class="card-title" id="t4">Accesorios de Drenaje</h4>
     <small style="font-size: 8pt; color: gray;">Accesorios para contenedores refirgerados</small>
     <p class="card-text">
       <ul id="ul4">
@@ -114,51 +123,45 @@
         <li class="li">Tapones</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" >Ver más</a>
   </div>
 </div>
-<!--p4 [FIN]-->
 
-<!--p5 [INICIO]-->
 <div class="card" style="width: 18rem; padding: 12px;" id="5">
-<figure style="padding: 10px;"  data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje" style="cursor: pointer;">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="bisagras">
   <img src="./assets/img/productos/bisGalv.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Bisagras para puertas de contenedores refirgerados</h4>
+    <h4 class="card-title" id="t5">Bisagras para puertas de contenedores refirgerados</h4>
     <small style="font-size: 8pt; color: gray;">Accesorios para puertas</small>
     <p class="card-text">
       <ul id="ul5">
         <li class="li">Bisagras galvanizadas de 4" con 6 huecos</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
-<!--p5 [FIN]-->
 
 <div class="card" style="width: 18rem; padding: 12px;" id="6">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="cableElectrico">
   <img src="./assets/img/productos/cabElec.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Cable Eléctrico</h4>
+    <h4 class="card-title" id="t6">Cable Eléctrico</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul6">
         <li class="li">Rollo de cable amarillo, con una longitud de 75m en bobina. </li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="7">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;"  class="f"  data-toggle="modal" data-target="#exampleModal" id="perfHierro">
   <img src="./assets/img/productos/perfiles.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Perfiles de hierro</h4>
+    <h4 class="card-title" id="t7">Perfiles de hierro</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul7">
@@ -171,32 +174,30 @@
         <li class="li">Ángulo Corner Post </li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="8">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="frames">
   <img src="./assets/img/productos/Frames.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Frames</h4>
+    <h4 class="card-title" id="t8">Frames</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul8">
         <li class="li">Frame PVC para puerta </li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="9">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="cortina">
   <img src="./assets/img/productos/controlAtm.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Kit de cortina atmósfera controlada</h4>
+    <h4 class="card-title" id="t9">Kit de cortina atmósfera controlada</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul9">
@@ -205,16 +206,15 @@
         <li class="li">Cinta Plástica </li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="10">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="lona">
   <img src="./assets/img/productos/lona.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Lona para contenedor seco</h4>
+    <h4 class="card-title" id="t10">Lona para contenedor seco</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul10">
@@ -228,11 +228,11 @@
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="11">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="pernosAcero">
   <img src="./assets/img/productos/pernos.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Pernos de acero inoxidable y galvanizados</h4>
+    <h4 class="card-title" id="t11">Pernos de acero inoxidable y galvanizados</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul11">
@@ -243,38 +243,36 @@
         <li class="li">Anillo Plano</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="12">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="placa">
   <img src="./assets/img/productos/csc.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Placa CSC</h4>
+    <h4 class="card-title" id="t12">Placa CSC</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul12">
         <li class="li">Placas para puertas de acero inóxidable</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem; padding: 12px;" id="13">
-<figure style="padding: 10px;">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="plywood">
   <img src="./assets/img/productos/playwood.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title">Plywood Marino Certificado</h4>
+    <h4 class="card-title" id="t13">Plywood Marino Certificado</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedor seco</small>
     <p class="card-text">
       <ul id="ul13">
         <li class="li">Plancha de Plywood de 4' x 8', para contenedor seco</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver más</a>
   </div>
 </div>
+

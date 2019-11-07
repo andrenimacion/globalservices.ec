@@ -16,7 +16,7 @@
     <a class="nav-link" href="productos.php" style="color: white;">Productos</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="index.php" style="color: white;">Contactos</a>
+    <a class="nav-link" href="#footer" style="color: white;">Contactos</a>
   </li>
 </ul>
 </nav>
