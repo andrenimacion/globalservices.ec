@@ -223,7 +223,6 @@
         <li class="li">Cable Opentop de 40' y 20'</li>
       <ul>
     </p>
-    <a href="#" class="btn btn-primary">Ver más</a>
   </div>
 </div>
 

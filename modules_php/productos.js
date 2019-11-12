@@ -359,7 +359,7 @@ function lona() {
 
 productos.pernosAcero.addEventListener('click', pernosAcero);
 
-function lona() {
+function pernosAcero() {
     let img1 = new newImagen(document.getElementById('t11').outerText, './assets/img/productos/pernos.jpg', ul.ul11, '');
     showDisplay(ul.ul1, 'none');
     showDisplay(ul.ul2, 'none');
