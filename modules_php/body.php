@@ -9,7 +9,7 @@
     <p class="h3"><strong>Nuestra Empresa:</strong></p><br>
     <p style="text-align: justify;">
         Global Services está presente en el mercado Ecuatoriano por más de 20 años, 
-        siendo pioneros en comercializar productos especializados para contendores refrigrados,
+        siendo pioneros en comercializar productos especializados para contendores refrigerados,
         secos, chasis, y equipos.
     </p>
 </div>
