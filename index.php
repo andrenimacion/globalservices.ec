@@ -42,7 +42,7 @@
             require_once('modules_php/nav.php')
         ?>
         <script src="js/nav.js"></script>
-        </script>
+        
         <!--nav bar fin-->
         <div id="logo">
             <figure>
@@ -59,7 +59,18 @@
         <?php
             require_once('modules_php/body.php');
         ?>
+        
+        <hr class="hr mt-4 mb-4">
+
         <!--body fin-->
+        <!--video inicio-->
+        <div class="tag mt-4 mb-4" id="vExpl">Video Explicativo <br><p class="note">(Instalación de cortina para contenedor)</p></div>
+        <section class="container-fluid" id="video">
+        <video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video" width="100%" height="auto">
+			<source src="starCool.mp4" type="video/mp4">
+        </video>
+        </section>
+        <!--video fin-->
         <!--footer inicio-->
         <?php
             require_once('modules_php/footer.php');

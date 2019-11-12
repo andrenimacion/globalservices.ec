@@ -38,3 +38,27 @@ a {
     height: 300px;
     border: solid 1px blueviolet;
 }
+
+#video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#vExpl{
+    width: 400px;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 20px;
+    padding-right: 40px;
+    color: whitesmoke;
+    background-color: #0275d8;
+    text-align: right;
+}
+
+.note{
+    font-size: 12px;
+    color: whitesmoke;
+}
