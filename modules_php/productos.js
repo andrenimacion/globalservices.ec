@@ -159,7 +159,7 @@ function accPuertas() {
 productos.planchasAceroInoxidable.addEventListener('click', plAcero);
 
 function plAcero() {
-    let img1 = new newImagen(document.getElementById('t3').outerText, './assets/img/productos/planAcero.jpg', ul.ul3, '');
+    let img1 = new newImagen(document.getElementById('t3').outerText, './assets/img/productos/planAcero2.jpg', ul.ul3, '');
     showDisplay(ul.ul1, 'none');
     showDisplay(ul.ul2, 'none');
     showDisplay(ul.ul4, 'none');
@@ -189,31 +189,6 @@ function accesoriosDrenaje() {
     showDisplay(ul.ul2, 'none');
     showDisplay(ul.ul3, 'none');
     showDisplay(ul.ul5, 'none');
-    showDisplay(ul.ul6, 'none');
-    showDisplay(ul.ul7, 'none');
-    showDisplay(ul.ul8, 'none');
-    showDisplay(ul.ul9, 'none');
-    showDisplay(ul.ul10, 'none');
-    showDisplay(ul.ul11, 'none');
-    showDisplay(ul.ul12, 'none');
-    showDisplay(ul.ul13, 'none');
-    showDisplay(ul.ul14, 'none');
-    showDisplay(ul.ul15, 'none');
-    showDisplay(ul.ul16, 'none');
-    showDisplay(ul.ul17, 'none');
-    showDisplay(ul.ul18, 'none');
-    img1.changeImg();
-    img1.changeTxt();
-}
-
-productos.bisagras.addEventListener('click', bisagras);
-
-function bisagras() {
-    let img1 = new newImagen(document.getElementById('t5').outerText, './assets/img/productos/bisGalv.jpg', ul.ul5, '');
-    showDisplay(ul.ul1, 'none');
-    showDisplay(ul.ul2, 'none');
-    showDisplay(ul.ul3, 'none');
-    showDisplay(ul.ul4, 'none');
     showDisplay(ul.ul6, 'none');
     showDisplay(ul.ul7, 'none');
     showDisplay(ul.ul8, 'none');

@@ -28,7 +28,7 @@
 </div>
 <script>
   let contactoEvent = document.getElementById('contacto');
-  let contacto = "2472089 - 2753106 - 0987210849";
+  let contacto = "2472089 - 0987210849";
   let modalFooter = document.getElementById('modalFooter');
   function hide(display){
     modalFooter.innerHTML= display;
@@ -255,7 +255,9 @@
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul12">
-        <li class="li">Placas para puertas de acero inóxidable</li>
+        <li class="li">Monobolt aluminio</li> 
+        <li class="li">Monobolt acero inoxidable</li> 
+        <li class="li">Floor - Mariposa de aluminio</li>
       <ul>
     </p>
   </div>
@@ -266,7 +268,7 @@
   <img src="./assets/img/productos/playwood.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t13">Plywood Marino Certificado</h4>
+    <h4 class="card-title" id="t13">Plywood Marino Certificado 30mm de Espesor</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedor seco</small>
     <p class="card-text">
       <ul id="ul13">
@@ -339,7 +341,7 @@
 
 <div class="card" style="width: 18rem; padding: 12px;" id="18">
 <figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="gasket">
-  <img src="./assets/img/productos/FRAMESYGASKET(CAUCHO).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+  <img src="./assets/img/productos/GASKET( CAUCHOS ).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
     <h4 class="card-title" id="t18">Gasket de caucho</h4>
