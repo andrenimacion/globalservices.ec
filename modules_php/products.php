@@ -255,9 +255,6 @@
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul12">
-        <li class="li">Monobolt aluminio</li> 
-        <li class="li">Monobolt acero inoxidable</li> 
-        <li class="li">Floor - Mariposa de aluminio</li>
       <ul>
     </p>
   </div>
@@ -329,11 +326,13 @@
   <img src="./assets/img/productos/REMACHESDEACEROYALUMINIO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t17">Remaches de Acero</h4>
+    <h4 class="card-title" id="t17">Remaches</h4>
     <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
     <p class="card-text">
       <ul id="ul17">
-        <li class="li"></li>
+        <li class="li">Monobolt aluminio</li> 
+        <li class="li">Monobolt acero inoxidable</li> 
+        <li class="li">Floor - Mariposa de aluminio</li>
       <ul>
     </p>
   </div>
