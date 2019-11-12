@@ -24,7 +24,17 @@ const productos = {
     /*12*/
     placa: document.getElementById('placa'),
     /*13*/
-    plywood: document.getElementById('plywood')
+    plywood: document.getElementById('plywood'),
+    /*14*/
+    accesoriosRefrerSeco: document.getElementById('accRefrer'),
+    /*15*/
+    Estabilizador: document.getElementById('Estabilizador'),
+    /*16*/
+    pisoCont: document.getElementById('pisoCont'),
+    /*17*/
+    remaches: document.getElementById('remaches'),
+    /*18*/
+    gasket: document.getElementById('gasket')
 }
 
 /* ID UL inicio*/
@@ -42,7 +52,12 @@ const ul = {
         ul10: document.getElementById('ul10'),
         ul11: document.getElementById('ul11'),
         ul12: document.getElementById('ul12'),
-        ul13: document.getElementById('ul13')
+        ul13: document.getElementById('ul13'),
+        ul14: document.getElementById('ul14'),
+        ul15: document.getElementById('ul15'),
+        ul16: document.getElementById('ul16'),
+        ul17: document.getElementById('ul17'),
+        ul18: document.getElementById('ul18')
 
     }
     /* ID UL fin*/
@@ -64,6 +79,11 @@ showDisplay(ul.ul10, 'none');
 showDisplay(ul.ul11, 'none');
 showDisplay(ul.ul12, 'none');
 showDisplay(ul.ul13, 'none');
+showDisplay(ul.ul14, 'none');
+showDisplay(ul.ul15, 'none');
+showDisplay(ul.ul16, 'none');
+showDisplay(ul.ul17, 'none');
+showDisplay(ul.ul18, 'none');
 /*Hide UL FIN */
 
 class newImagen {
@@ -102,6 +122,11 @@ function sellado() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -122,6 +147,11 @@ function accPuertas() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -142,6 +172,11 @@ function plAcero() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -162,6 +197,11 @@ function accesoriosDrenaje() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -182,6 +222,11 @@ function bisagras() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -202,6 +247,11 @@ function bisagras() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -223,6 +273,11 @@ function cableElectrico() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -242,7 +297,11 @@ function perfHierro() {
     showDisplay(ul.ul10, 'none');
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
-    showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -263,6 +322,12 @@ function frames() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -283,6 +348,11 @@ function cortina() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -303,6 +373,11 @@ function lona() {
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -323,6 +398,11 @@ function lona() {
     showDisplay(ul.ul10, 'none');
     showDisplay(ul.ul12, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -343,6 +423,11 @@ function placa() {
     showDisplay(ul.ul10, 'none');
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
     img1.changeImg();
     img1.changeTxt();
 }
@@ -363,6 +448,136 @@ function plywood() {
     showDisplay(ul.ul10, 'none');
     showDisplay(ul.ul11, 'none');
     showDisplay(ul.ul12, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
+    img1.changeImg();
+    img1.changeTxt();
+}
+
+productos.accesoriosRefrerSeco.addEventListener('click', accesoriosRefrerSeco);
+
+function accesoriosRefrerSeco() {
+    let img1 = new newImagen(document.getElementById('t14').outerText, './assets/img/productos/ACCESORIOSREFFERYSECO.jpg', ul.ul14, '');
+    showDisplay(ul.ul1, 'none');
+    showDisplay(ul.ul2, 'none');
+    showDisplay(ul.ul3, 'none');
+    showDisplay(ul.ul4, 'none');
+    showDisplay(ul.ul5, 'none');
+    showDisplay(ul.ul6, 'none');
+    showDisplay(ul.ul7, 'none');
+    showDisplay(ul.ul8, 'none');
+    showDisplay(ul.ul9, 'none');
+    showDisplay(ul.ul10, 'none');
+    showDisplay(ul.ul11, 'none');
+    showDisplay(ul.ul12, 'none');
+    showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
+    img1.changeImg();
+    img1.changeTxt();
+}
+
+productos.Estabilizador.addEventListener('click', Estabilizador);
+
+function Estabilizador() {
+    let img1 = new newImagen(document.getElementById('t15').outerText, './assets/img/productos/ESTABILIZADOR.jpg', ul.ul15, '');
+    showDisplay(ul.ul1, 'none');
+    showDisplay(ul.ul2, 'none');
+    showDisplay(ul.ul3, 'none');
+    showDisplay(ul.ul4, 'none');
+    showDisplay(ul.ul5, 'none');
+    showDisplay(ul.ul6, 'none');
+    showDisplay(ul.ul7, 'none');
+    showDisplay(ul.ul8, 'none');
+    showDisplay(ul.ul9, 'none');
+    showDisplay(ul.ul10, 'none');
+    showDisplay(ul.ul11, 'none');
+    showDisplay(ul.ul12, 'none');
+    showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
+    img1.changeImg();
+    img1.changeTxt();
+}
+
+productos.pisoCont.addEventListener('click', pisoCont);
+
+function pisoCont() {
+    let img1 = new newImagen(document.getElementById('t16').outerText, './assets/img/productos/PISODECONTENEDOR.jpg', ul.ul16, '');
+    showDisplay(ul.ul1, 'none');
+    showDisplay(ul.ul2, 'none');
+    showDisplay(ul.ul3, 'none');
+    showDisplay(ul.ul4, 'none');
+    showDisplay(ul.ul5, 'none');
+    showDisplay(ul.ul6, 'none');
+    showDisplay(ul.ul7, 'none');
+    showDisplay(ul.ul8, 'none');
+    showDisplay(ul.ul9, 'none');
+    showDisplay(ul.ul10, 'none');
+    showDisplay(ul.ul11, 'none');
+    showDisplay(ul.ul12, 'none');
+    showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul17, 'none');
+    showDisplay(ul.ul18, 'none');
+    img1.changeImg();
+    img1.changeTxt();
+}
+
+productos.remaches.addEventListener('click', remaches);
+
+function remaches() {
+    let img1 = new newImagen(document.getElementById('t17').outerText, './assets/img/productos/REMACHESDEACEROYALUMINIO.jpg', ul.ul17, '');
+    showDisplay(ul.ul1, 'none');
+    showDisplay(ul.ul2, 'none');
+    showDisplay(ul.ul3, 'none');
+    showDisplay(ul.ul4, 'none');
+    showDisplay(ul.ul5, 'none');
+    showDisplay(ul.ul6, 'none');
+    showDisplay(ul.ul7, 'none');
+    showDisplay(ul.ul8, 'none');
+    showDisplay(ul.ul9, 'none');
+    showDisplay(ul.ul10, 'none');
+    showDisplay(ul.ul11, 'none');
+    showDisplay(ul.ul12, 'none');
+    showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul18, 'none');
+    img1.changeImg();
+    img1.changeTxt();
+}
+
+productos.gasket.addEventListener('click', gasket);
+
+function gasket() {
+    let img1 = new newImagen(document.getElementById('t18').outerText, './assets/img/productos/GASKET( CAUCHOS ).jpg', ul.ul18, '');
+    showDisplay(ul.ul1, 'none');
+    showDisplay(ul.ul2, 'none');
+    showDisplay(ul.ul3, 'none');
+    showDisplay(ul.ul4, 'none');
+    showDisplay(ul.ul5, 'none');
+    showDisplay(ul.ul6, 'none');
+    showDisplay(ul.ul7, 'none');
+    showDisplay(ul.ul8, 'none');
+    showDisplay(ul.ul9, 'none');
+    showDisplay(ul.ul10, 'none');
+    showDisplay(ul.ul11, 'none');
+    showDisplay(ul.ul12, 'none');
+    showDisplay(ul.ul13, 'none');
+    showDisplay(ul.ul14, 'none');
+    showDisplay(ul.ul15, 'none');
+    showDisplay(ul.ul16, 'none');
+    showDisplay(ul.ul17, 'none');
     img1.changeImg();
     img1.changeTxt();
 }

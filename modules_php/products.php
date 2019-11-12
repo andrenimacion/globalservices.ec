@@ -276,3 +276,78 @@
   </div>
 </div>
 
+<div class="card" style="width: 18rem; padding: 12px;" id="14">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="accRefrer">
+  <img src="./assets/img/productos/ACCESORIOSREFFERYSECO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t14">Accesorios para contenedor Refr. y Seco</h4>
+    <small style="font-size: 8pt; color: gray;">Aditamentos para contenedores</small>
+    <p class="card-text">
+      <ul id="ul14">
+        <li class="li"></li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; padding: 12px;" id="15">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="Estabilizador">
+  <img src="./assets/img/productos/ESTABILIZADOR(2).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t15">Estabilizador</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
+    <p class="card-text">
+      <ul id="ul15">
+        <li class="li"></li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem; padding: 12px;" id="16">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="pisoCont">
+  <img src="./assets/img/productos/PISODECONTENEDOR.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t16">Piso para Contenedores</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
+    <p class="card-text">
+      <ul id="ul16">
+        <li class="li"></li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; padding: 12px;" id="17">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="remaches">
+  <img src="./assets/img/productos/REMACHESDEACEROYALUMINIO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t17">Remaches de Acero</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
+    <p class="card-text">
+      <ul id="ul17">
+        <li class="li"></li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; padding: 12px;" id="18">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="gasket">
+  <img src="./assets/img/productos/FRAMESYGASKET(CAUCHO).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t18">Gasket de caucho</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
+    <p class="card-text">
+      <ul id="ul18">
+        <li class="li"></li>
+      <ul>
+    </p>
+  </div>
+</div>
