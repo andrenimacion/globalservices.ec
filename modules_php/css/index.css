@@ -39,15 +39,14 @@ a {
     border: solid 1px blueviolet;
 }
 
-#video{
+#video {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-#vExpl{
+#vExpl {
     width: 400px;
     font-size: 20pt;
     font-weight: bold;
@@ -58,7 +57,14 @@ a {
     text-align: right;
 }
 
-.note{
+@media (max-width: 1000px) {
+    #vExpl {
+        width: 1000;
+        text-align: center;
+    }
+}
+
+.note {
     font-size: 12px;
     color: whitesmoke;
 }
