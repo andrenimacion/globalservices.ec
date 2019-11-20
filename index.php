@@ -34,7 +34,7 @@
         background-position: 0px -200px;
     }
     #video{
-            width:40%;
+            width:500px;
             height: auto;
         }
 
