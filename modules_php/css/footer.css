@@ -15,6 +15,13 @@
     align-items: flex-start;
 }
 
+@media (max-width: 1000px) {
+    #box-f-1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
 #box-f-2 {
     width: 50%;
 }

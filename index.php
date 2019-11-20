@@ -33,7 +33,18 @@
         background-repeat: no-repeat;
         background-position: 0px -200px;
     }
-    
+    #video{
+            width:40%;
+            height: auto;
+        }
+
+    @media (max-width: 1000px){
+        #video{
+            width:100%;
+            height: auto;
+        }
+    }
+
     </style>
 </head>
 <body>
@@ -42,12 +53,12 @@
             require_once('modules_php/nav.php')
         ?>
         <script src="js/nav.js"></script>
-        
         <!--nav bar fin-->
+
         <div id="logo">
-            <figure>
-                <img src="assets/img/GLOBAL-SERVICES-LOGO-W.png" width="175px" height="auto" alt="logotipo" id="logoid">
-            </figure>
+            
+                <img src="assets/img/logoglobalservices.png" width="200px" height="auto" alt="logotipo" id="logoid">
+            
         </div>
         <script src="js/logo_anim.js"></script>
         <!--head inicio-->
@@ -66,15 +77,17 @@
         <!--video inicio-->
         <div class="tag mt-4 mb-4" id="vExpl">Video Explicativo <br><p class="note">(Instalación de cortina para contenedor)</p></div>
         <section class="container-fluid" id="video">
-        <video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video" width="100%" height="auto">
+        <div id="video">
+        <video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
 			<source src="starCool.mp4" type="video/mp4">
         </video>
+        </div>
         </section>
         <!--video fin-->
         <!--footer inicio-->
-        <?php
-            require_once('modules_php/footer.php');
-        ?>
+            <?php
+                require_once('modules_php/footer.php');
+            ?>
         <!--footer fin-->
 </body>
 <script src="node_modules/jquery/dist/jquery.js"></script>
