@@ -13,7 +13,7 @@
 
            <div class="icos" id="icos-1">
                 <img src="ul/phone-ico.png" width="35px" height="30px">
-                <p style="margin-top: 15px; margin-left: 7px;">2472089 - 2753106 - 0987210849</p>
+                <p style="margin-top: 15px; margin-left: 7px;">2472089 - 0987210849</p>
            </div>
            
            <div class="icos" id="icos-1">
