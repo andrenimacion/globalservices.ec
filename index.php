@@ -8,6 +8,11 @@
     <title>Global Services</title>
    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
     -->
+    <meta name="description" 
+    content="Global Services Ecuador, 
+    empresa Ecuatoriana dedicada a la comercialización de productos
+     y servicios, orientados a suplir al mercado multimodal en el Ecuador, 
+     cumpliendo normas de calidad."/>
     <link rel="stylesheet" href="./modules_php/css/head.css">
     <link rel="stylesheet" href="./modules_php/css/nav.css">
     <link rel="stylesheet" href="./modules_php/css/body.css">

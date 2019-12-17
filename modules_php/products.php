@@ -47,7 +47,7 @@
   <img src="./assets/img/productos/planAcero.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t3">Planchas de acero inoxidable</h4>
+    <h4 class="card-title" id="t3">Planchas de Acero Inoxidable</h4>
     <small>Productos para contenedores</small>
       <ul id="ul3">
         <li class="li"><strong>Medidas:</strong> </li>
@@ -89,7 +89,7 @@
 </figure>
   <div class="card-body">
     <h4 class="card-title" id="t20">Planchas de Hierro Negro</h4>
-    <small style="font-size: 8pt; color: gray;">Productos para contenedores refirgerados</small>
+    <small style="font-size: 8pt; color: gray;">Productos para contenedores refrigerados</small>
     <ul id="ul20">
         <li class="li">4' x 8' x 2mm</li>
         <li class="li">4' x 8' x 3mm</li>
@@ -145,7 +145,7 @@
   <img src="./assets/img/productos/accesoriosPuerta.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t2">Accesorios para puerta de contenedor</h4>
+    <h4 class="card-title" id="t2">Accesorios para Puerta de Contenedor</h4>
     <small style="font-size: 8pt; color: gray;">Productos para puertas</small>
     <ul id="ul2">
         <li class="li">Tie back</li>
@@ -173,7 +173,7 @@
   <img src="./assets/img/productos/bisGalv.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t5">Bisagras para puertas de contenedores refirgerados</h4>
+    <h4 class="card-title" id="t5">Bisagras para Puertas de Contenedores Refirgerados</h4>
     <small style="font-size: 8pt; color: gray;">Accesorios para puertas</small>
     <p class="card-text">
       <ul id="ul5">
@@ -228,7 +228,7 @@
   <img src="./assets/img/productos/controlAtm.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t9">Kit de cortina atmósfera controlada</h4>
+    <h4 class="card-title" id="t9">Kit de Cortina Atmósfera Controlada</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul9">
@@ -246,7 +246,7 @@
 </figure>
   <div class="card-body">
     <h4 class="card-title" id="t6">Cable Eléctrico</h4>
-    <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
+    <small style="font-size: 8pt; color: gray;">Producto para Contenedores</small>
     <p class="card-text">
       <ul id="ul6">
         <li class="li">Rollo de cable amarillo, con una longitud de 75m en bobina. </li>
@@ -261,7 +261,7 @@
   <img src="./assets/img/productos/ACCESORIOSREFFERYSECO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t14">Accesorios para contenedor Refr. y Seco</h4>
+    <h4 class="card-title" id="t14">Accesorios para Contenedor Refr. y Seco</h4>
     <small style="font-size: 8pt; color: gray;">Aditamentos para contenedores</small>
     <p class="card-text">
       <ul id="ul14">
@@ -282,7 +282,7 @@
   <img src="./assets/img/productos/lona.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t10">Lona para contenedor seco</h4>
+    <h4 class="card-title" id="t10">Lona para Contenedor Seco</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul10">
@@ -316,7 +316,7 @@
   <img src="./assets/img/productos/pernos.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t11">Pernos de acero inoxidable y galvanizados</h4>
+    <h4 class="card-title" id="t11">Pernos de Acero Inoxidable y Galvanizados</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul11">
@@ -335,7 +335,7 @@
   <img src="./assets/img/productos/perfiles.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t7">Perfiles de hierro</h4>
+    <h4 class="card-title" id="t7">Perfiles de Hierro</h4>
     <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
       <ul id="ul7">
@@ -371,8 +371,8 @@
   <img src="./assets/img/productos/GASKET( CAUCHOS ).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t18">Gasket de caucho</h4>
-    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
+    <h4 class="card-title" id="t18">Gasket de Caucho</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para ontenedores</small>
     <p class="card-text">
       <ul id="ul18">
         <li class="li">Gasket Tubular x 8' y marco completos</li>
@@ -392,7 +392,7 @@
   <img src="./assets/img/productos/Accesorios2.jpg" id="img1" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t1">Productos para sellado y pegado</h4>
+    <h4 class="card-title" id="t1">Productos para Sellado y Pegado</h4>
     <small style="font-size: 8pt; color: gray;">Productos para contenedores refirgerados</small>
     <ul id="ul1">
         <li class="li">Pistola aplicadora de Sikaflex</li>
