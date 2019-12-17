@@ -57,7 +57,7 @@
 
         <div id="logo">
             
-                <img src="assets/img/logoglobalservices.png" width="200px" height="auto" alt="logotipo" id="logoid">
+                <img src="assets/img/logoglobalservicesLb.png" width="200px" height="auto" alt="logotipo" id="logoid">
             
         </div>
         <script src="js/logo_anim.js"></script>

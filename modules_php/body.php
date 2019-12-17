@@ -5,7 +5,7 @@
 -->
 <div class="container mt-3 mb-3" id="paragraph">
 
-<div class="title p-3 mb-2 bg-primary text-white" id="p2">
+<div class="title p-3 mb-2 text-white" style="background-color: #10AAD3;" id="p2">
     <p class="h3"><strong>Nuestra Empresa:</strong></p><br>
     <p style="text-align: justify;">
         Global Services está presente en el mercado Ecuatoriano por más de 20 años, 

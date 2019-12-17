@@ -42,21 +42,103 @@
   }
 </script>
 
-
-<div class="card" style="width: 18rem; padding: 12px;" id="1">
-<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="selladoPegado">
-  <img src="./assets/img/productos/Accesorios2.jpg" id="img1" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+<div class="card" style="width: 18rem; padding: 12px;" id="3">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="planchasAceroInoxidable">
+  <img src="./assets/img/productos/planAcero.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t1">Productos para sellado y pegado</h4>
-    <small style="font-size: 8pt; color: gray;">Productos para contenedores refirgerados</small>
-    <ul id="ul1">
-        <li class="li">Pistola aplicadora de Sikaflex</li>
-        <li class="li">Sikaflex 221</li>
+    <h4 class="card-title" id="t3">Planchas de acero inoxidable</h4>
+    <small>Productos para contenedores</small>
+      <ul id="ul3">
+        <li class="li"><strong>Medidas:</strong> </li>
+        <li class="li">4' x 8' x 0.9mm</li>
+        <li class="li">4' x 8' x 1.0mm</li>
+        <li class="li">4' x 8' x 1.2mm</li>
+        <li class="li">4' x 8' x 1.5mm</li>
+        <li class="li">4' x 8' x 2mm</li>
+        <li class="li">4' x 8.5' x 1.2mm<small>HICU</small></li>
       <ul>
     </p>
   </div>
 </div>
+
+<div class="card" style="width: 18rem; padding: 12px;" id="19">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="pAluminio">
+  <img src="./assets/img/productos/planchasAluminio.png" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t19">Planchas de Aluminio</h4>
+    <small style="font-size: 8pt; color: gray;">Productos para contenedores refirgerados</small>
+    <ul id="ul19">
+        <li class="li">4' x 8' x 1.0mm</li>
+        <li class="li">4' x 8' x 1.2mm</li>
+        <li class="li">4' x 8' x 1.5mm</li>
+        <li class="li">4' x 8' x 2mm</li>
+        <li class="li">4' x 8' x 3mm</li>
+        <li class="li">4' x 8' x 4mm</li>
+        
+      <ul>
+    </p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem; padding: 12px;" id="20">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="pHierroNegro">
+  <img src="./assets/img/productos/hierroNegro.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t20">Planchas de Hierro Negro</h4>
+    <small style="font-size: 8pt; color: gray;">Productos para contenedores refirgerados</small>
+    <ul id="ul20">
+        <li class="li">4' x 8' x 2mm</li>
+        <li class="li">4' x 8' x 3mm</li>
+        <li class="li">4' x 8' x 4mm</li>
+        <li class="li">4' x 8' x 5mm</li>
+        <li class="li">4' x 8' x 6mm</li>
+        <li class="li">4' x 8' x 9mm</li>
+        <li class="li">1200 x 3000 x 2 mm</li>
+        <li class="li">1200 x 3000 x 4 mm</li>
+        <li class="li">1200 x 3000 x 6 mm</li>
+        
+      <ul>
+    </p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem; padding: 12px;" id="21">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="planchasCortenStell">
+  <img src="./assets/img/productos/cortenStell.png" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t21">Planchas de Corten Stell</h4>
+      <small>Productos para contenedores</small>
+      <ul id="ul21">
+        <li class="li"><strong>Medidas:</strong> </li>
+        <li class="li">PLANCHA CORTEN STELL x 3 mm</li>
+        <li class="li">PLANCHA CORTEN   STELL x 4.6 mm</li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem; padding: 12px;" id="13">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="plywood">
+  <img src="./assets/img/productos/playwood.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t13">Plywood Marino Certificado 30mm de Espesor</h4>
+    <small style="font-size: 8pt; color: gray;">Producto para contenedor seco</small>
+    <p class="card-text">
+      <ul id="ul13">
+        <li class="li">Plancha de Plywood de 4' x 8', para contenedor seco</li>
+      <ul>
+    </p>
+  </div>
+</div>
+
 
 <div class="card" style="width: 18rem; padding: 12px; "id="2">
 <figure style="padding: 10px;" class="f"  data-toggle="modal" data-target="#exampleModal" id="accesoriosPuertas">
@@ -86,25 +168,40 @@
 </div>
 
 
-<div class="card" style="width: 18rem; padding: 12px;" id="3">
-<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="planchasAceroInoxidable">
-  <img src="./assets/img/productos/planAcero.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+<div class="card" style="width: 18rem; padding: 12px;" id="5">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="bisagras">
+  <img src="./assets/img/productos/bisGalv.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t3">Planchas de acero inoxidable</h4>
-    <small>Productos para contenedores</small>
-      <ul id="ul3">
-        <li class="li"><strong>Medidas:</strong> </li>
-        <li class="li">4' x 8' x 0.9mm</li>
-        <li class="li">4' x 8' x 1.0mm</li>
-        <li class="li">4' x 8' x 1.2mm</li>
-        <li class="li">4' x 8' x 1.5mm</li>
-        <li class="li">4' x 8' x 2mm</li>
-        <li class="li">4' x 8.5' x 1.2mm<small>HICU</small></li>
+    <h4 class="card-title" id="t5">Bisagras para puertas de contenedores refirgerados</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para puertas</small>
+    <p class="card-text">
+      <ul id="ul5">
+        <li class="li">Bisagras galvanizadas de 4" con 6 huecos</li>
       <ul>
     </p>
   </div>
 </div>
+
+
+<div class="card" style="width: 18rem; padding: 12px;" id="16">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="pisoCont">
+  <img src="./assets/img/productos/PISODECONTENEDOR.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t16">Piso para Contenedores</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
+    <p class="card-text">
+      <ul id="ul16">
+        <li class="li">T. floor kit (top + botón)</li>
+        <li class="li">T. floor sección de 5 canales (piso)</li>
+        <li class="li">T. floor entrance</li>
+        </li>
+      <ul>
+    </p>
+  </div>
+</div>
+
 
 <div class="card" style="width: 18rem; padding: 12px;" id="4">
 <figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="accesoriosDrenaje">
@@ -126,16 +223,18 @@
   </div>
 </div>
 
-<div class="card" style="width: 18rem; padding: 12px;" id="5">
-<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="bisagras">
-  <img src="./assets/img/productos/bisGalv.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+<div class="card" style="width: 18rem; padding: 12px;" id="9">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="cortina">
+  <img src="./assets/img/productos/controlAtm.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t5">Bisagras para puertas de contenedores refirgerados</h4>
-    <small style="font-size: 8pt; color: gray;">Accesorios para puertas</small>
+    <h4 class="card-title" id="t9">Kit de cortina atmósfera controlada</h4>
+    <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
     <p class="card-text">
-      <ul id="ul5">
-        <li class="li">Bisagras galvanizadas de 4" con 6 huecos</li>
+      <ul id="ul9">
+        <li class="li">Cortina </li>
+        <li class="li">Etiquetas de Peligro </li>
+        <li class="li">Cinta Plástica </li>
       <ul>
     </p>
   </div>
@@ -151,6 +250,81 @@
     <p class="card-text">
       <ul id="ul6">
         <li class="li">Rollo de cable amarillo, con una longitud de 75m en bobina. </li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem; padding: 12px;" id="14">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="accRefrer">
+  <img src="./assets/img/productos/ACCESORIOSREFFERYSECO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t14">Accesorios para contenedor Refr. y Seco</h4>
+    <small style="font-size: 8pt; color: gray;">Aditamentos para contenedores</small>
+    <p class="card-text">
+      <ul id="ul14">
+        <li class="li">Twist Lock</li>
+        <li class="li">Twist Lock Pin</li>
+        <li class="li">Corner Fiting</li>
+        <li class="li">Ventolera Plástica</li>
+        <li class="li">Bisagra para seco</li>
+        <li class="li">Bit T-40</li>
+        <li class="li">Perno Autorroscante para Piso</li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; padding: 12px;" id="10">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="lona">
+  <img src="./assets/img/productos/lona.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t10">Lona para contenedor seco</h4>
+    <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
+    <p class="card-text">
+      <ul id="ul10">
+        <li class="li">Lona</li>
+        <li class="li">Ojales</li>
+        <li class="li">Cable Opentop de 40' y 20'</li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; padding: 12px;" id="17">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="remaches">
+  <img src="./assets/img/productos/REMACHESDEACEROYALUMINIO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t17">Remaches</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
+    <p class="card-text">
+      <ul id="ul17">
+        <li class="li">Monobolt aluminio</li> 
+        <li class="li">Monobolt acero inoxidable</li> 
+        <li class="li">Floor - Mariposa de aluminio</li>
+      <ul>
+    </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; padding: 12px;" id="11">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="pernosAcero">
+  <img src="./assets/img/productos/pernos.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+</figure>
+  <div class="card-body">
+    <h4 class="card-title" id="t11">Pernos de acero inoxidable y galvanizados</h4>
+    <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
+    <p class="card-text">
+      <ul id="ul11">
+        <li class="li">Pernos cabeza de coco</li>
+        <li class="li">Pernos hexagonal</li>
+        <li class="li">Tuerca</li>
+        <li class="li">Anillo de Presión</li>
+        <li class="li">Anillo Plano</li>
       <ul>
     </p>
   </div>
@@ -192,54 +366,37 @@
   </div>
 </div>
 
-<div class="card" style="width: 18rem; padding: 12px;" id="9">
-<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="cortina">
-  <img src="./assets/img/productos/controlAtm.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+<div class="card" style="width: 18rem; padding: 12px;" id="18">
+<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="gasket">
+  <img src="./assets/img/productos/GASKET( CAUCHOS ).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t9">Kit de cortina atmósfera controlada</h4>
-    <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
+    <h4 class="card-title" id="t18">Gasket de caucho</h4>
+    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
     <p class="card-text">
-      <ul id="ul9">
-        <li class="li">Cortina </li>
-        <li class="li">Etiquetas de Peligro </li>
-        <li class="li">Cinta Plástica </li>
+      <ul id="ul18">
+        <li class="li">Gasket Tubular x 8' y marco completos</li>
+        <li class="li">Gasket J mediano x 8'</li>
+        <li class="li">Gasket 2 aletas x 8' y marco completo</li>
+        <li class="li">Gasket 2 aleta base plana x 8'</li>
+        <li class="li">Gasket 2 aletas altas x 8' y marco completos</li>
+        <li class="li">Gasket base plana x 8'</li>
+        <li class="li">Gasket 1 aleta x 8'</li>
       <ul>
     </p>
   </div>
 </div>
 
-<div class="card" style="width: 18rem; padding: 12px;" id="10">
-<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="lona">
-  <img src="./assets/img/productos/lona.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
+<div class="card" style="width: 18rem; padding: 12px;" id="1">
+<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="selladoPegado">
+  <img src="./assets/img/productos/Accesorios2.jpg" id="img1" class="card-img-top" alt="acceesorios" width="100%" height="auto">
 </figure>
   <div class="card-body">
-    <h4 class="card-title" id="t10">Lona para contenedor seco</h4>
-    <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
-    <p class="card-text">
-      <ul id="ul10">
-        <li class="li">Lona</li>
-        <li class="li">Ojales</li>
-        <li class="li">Cable Opentop de 40' y 20'</li>
-      <ul>
-    </p>
-  </div>
-</div>
-
-<div class="card" style="width: 18rem; padding: 12px;" id="11">
-<figure style="padding: 10px;" class="f" data-toggle="modal" data-target="#exampleModal" id="pernosAcero">
-  <img src="./assets/img/productos/pernos.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
-</figure>
-  <div class="card-body">
-    <h4 class="card-title" id="t11">Pernos de acero inoxidable y galvanizados</h4>
-    <small style="font-size: 8pt; color: gray;">Producto para contenedores</small>
-    <p class="card-text">
-      <ul id="ul11">
-        <li class="li">Pernos cabeza de coco</li>
-        <li class="li">Pernos hexagonal</li>
-        <li class="li">Tuerca</li>
-        <li class="li">Anillo de Presión</li>
-        <li class="li">Anillo Plano</li>
+    <h4 class="card-title" id="t1">Productos para sellado y pegado</h4>
+    <small style="font-size: 8pt; color: gray;">Productos para contenedores refirgerados</small>
+    <ul id="ul1">
+        <li class="li">Pistola aplicadora de Sikaflex</li>
+        <li class="li">Sikaflex 221</li>
       <ul>
     </p>
   </div>
@@ -259,42 +416,6 @@
   </div>
 </div>
 
-<div class="card" style="width: 18rem; padding: 12px;" id="13">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="plywood">
-  <img src="./assets/img/productos/playwood.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
-</figure>
-  <div class="card-body">
-    <h4 class="card-title" id="t13">Plywood Marino Certificado 30mm de Espesor</h4>
-    <small style="font-size: 8pt; color: gray;">Producto para contenedor seco</small>
-    <p class="card-text">
-      <ul id="ul13">
-        <li class="li">Plancha de Plywood de 4' x 8', para contenedor seco</li>
-      <ul>
-    </p>
-  </div>
-</div>
-
-<div class="card" style="width: 18rem; padding: 12px;" id="14">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="accRefrer">
-  <img src="./assets/img/productos/ACCESORIOSREFFERYSECO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
-</figure>
-  <div class="card-body">
-    <h4 class="card-title" id="t14">Accesorios para contenedor Refr. y Seco</h4>
-    <small style="font-size: 8pt; color: gray;">Aditamentos para contenedores</small>
-    <p class="card-text">
-      <ul id="ul14">
-        <li class="li">Twist Lock</li>
-        <li class="li">Twist Lock Pin</li>
-        <li class="li">Corner Fiting</li>
-        <li class="li">Ventolera Plástica</li>
-        <li class="li">Bisagra para seco</li>
-        <li class="li">Bit T-40</li>
-        <li class="li">Perno Autorroscante para Piso</li>
-      <ul>
-    </p>
-  </div>
-</div>
-
 <div class="card" style="width: 18rem; padding: 12px;" id="15">
 <figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="Estabilizador">
   <img src="./assets/img/productos/ESTABILIZADOR(2).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
@@ -305,63 +426,6 @@
     <p class="card-text">
       <ul id="ul15">
         <li class="li">Estabilizador para contenedores</li>
-      <ul>
-    </p>
-  </div>
-</div>
-
-
-<div class="card" style="width: 18rem; padding: 12px;" id="16">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="pisoCont">
-  <img src="./assets/img/productos/PISODECONTENEDOR.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
-</figure>
-  <div class="card-body">
-    <h4 class="card-title" id="t16">Piso para Contenedores</h4>
-    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
-    <p class="card-text">
-      <ul id="ul16">
-        <li class="li">T. floor kit (top + botón)</li>
-        <li class="li">T. floor sección de 5 canales (piso)</li>
-        <li class="li">T. floor entrance</li>
-        </li>
-      <ul>
-    </p>
-  </div>
-</div>
-
-<div class="card" style="width: 18rem; padding: 12px;" id="17">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="remaches">
-  <img src="./assets/img/productos/REMACHESDEACEROYALUMINIO.jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
-</figure>
-  <div class="card-body">
-    <h4 class="card-title" id="t17">Remaches</h4>
-    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
-    <p class="card-text">
-      <ul id="ul17">
-        <li class="li">Monobolt aluminio</li> 
-        <li class="li">Monobolt acero inoxidable</li> 
-        <li class="li">Floor - Mariposa de aluminio</li>
-      <ul>
-    </p>
-  </div>
-</div>
-
-<div class="card" style="width: 18rem; padding: 12px;" id="18">
-<figure style="padding: 10px;" data-toggle="modal" data-target="#exampleModal" id="gasket">
-  <img src="./assets/img/productos/GASKET( CAUCHOS ).jpg" class="card-img-top" alt="acceesorios" width="100%" height="auto">
-</figure>
-  <div class="card-body">
-    <h4 class="card-title" id="t18">Gasket de caucho</h4>
-    <small style="font-size: 8pt; color: gray;">Accesorios para contenedores</small>
-    <p class="card-text">
-      <ul id="ul18">
-        <li class="li">Gasket Tubular x 8' y marco completos</li>
-        <li class="li">Gasket J mediano x 8'</li>
-        <li class="li">Gasket 2 aletas x 8' y marco completo</li>
-        <li class="li">Gasket 2 aleta base plana x 8'</li>
-        <li class="li">Gasket 2 aletas altas x 8' y marco completos</li>
-        <li class="li">Gasket base plana x 8'</li>
-        <li class="li">Gasket 1 aleta x 8'</li>
       <ul>
     </p>
   </div>

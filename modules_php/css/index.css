@@ -14,13 +14,16 @@
     #logo {
         width: 125px;
         height: 125px;
-        left: 100%;
-        margin-top: 100px;
+        left: 85%;
+        margin-top: 25px;
     }
     #logoid {
         width: 125px;
         height: auto;
-        margin-top: 20px;
+        margin-top: 0;
+    }
+    #fm-video {
+        width: 100%;
     }
 }
 
@@ -53,7 +56,7 @@ a {
     padding: 20px;
     padding-right: 40px;
     color: whitesmoke;
-    background-color: #0275d8;
+    background-color: #10AAD3;
     text-align: right;
 }
 
