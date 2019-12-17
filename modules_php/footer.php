@@ -1,14 +1,14 @@
 <div class="container-fluid mt-4" id="footer">
     <div class="box-f-1" id="box-f-1" style="background-image: url('ul/footer.png');">
-        <p>
+        <p><!--
            <div class="icos" id="icos-1">
                 <img src="ul/ico-01.png" width="35px" height="30px">
                 <p style="margin-top: 15px; margin-left: 7px;">@globalservices</p>
-           </div>
+           </div>-->
            
            <div class="icos" id="icos-1">
                 <img src="ul/mail-ico.png" width="35px" height="30px">
-                <p style="margin-top: 15px; margin-left: 7px;">ventas@globalservices.ec</p>
+                <p style="margin-top: 15px; margin-left: 7px;">info@globalservices.ec</p>
            </div>
 
            <div class="icos" id="icos-1">
